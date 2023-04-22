@@ -5,7 +5,7 @@ import { ThemeProvider } from "next-themes";
 export function Providers({ children }) {
   return (
     <ThemeProvider attribute="class" enableSystem>
-      <div className="dark:bg-gray-700 dark:text-gray-200 text-gray-700 transition-colors duration-300 min-h-screen select-none">
+      <div className="dark:bg-gray-700 dark:text-gray-200 bg-gray-50 text-gray-700 transition-colors duration-300 min-h-screen select-none">
         {children}
       </div>
     </ThemeProvider>
